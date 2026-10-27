@@ -106,7 +106,7 @@ Each edge kind joins only the node kinds in its row. An edge outside its row has
 
 ## Relationship to realm/1
 
-`realm/1` ([FlashyLabs/therealm](https://github.com/FlashyLabs/therealm), served at `https://therealm.live/.well-known/realm.json`) is the estate's registry: one manifest that lists every organisation as a **house** — `slug`, lore-name `house`, the real `org` id, `domain`, `status`, and for a live house its `surfaces.handshake` — and carries the identity/1 taxonomy (five houses, ten archetypes, from RitualOS). It answers *which organisations are in the world and where is each one's machine door*. `graph/1` answers the next question — *what does each one operate, offer, own, and who vouches for whom* — and it does not restate the first.
+`realm/1` ([AgenteLabs/therealm](https://github.com/AgenteLabs/therealm), served at `https://therealm.live/.well-known/realm.json`) is the estate's registry: one manifest that lists every organisation as a **house** — `slug`, lore-name `house`, the real `org` id, `domain`, `status`, and for a live house its `surfaces.handshake` — and carries the identity/1 taxonomy (five houses, ten archetypes, from RitualOS). It answers *which organisations are in the world and where is each one's machine door*. `graph/1` answers the next question — *what does each one operate, offer, own, and who vouches for whom* — and it does not restate the first.
 
 **A realm/1 manifest is a source of nodes.** `fromRealm(manifest)` derives a partial `graph/1` document:
 
