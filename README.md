@@ -53,7 +53,7 @@ Derive nodes from a realm manifest: `node vendor-graph.mjs from-realm test/fixtu
 node scripts/build-site.mjs   # regenerate site/ from site.config.json + the vendored inputs
 ```
 
-"Committed is not served": the authoritative check runs against the live domain after deploy (`npx @flashyos/conformance <domain> --level 2`). `vercel.json` sets the output directory to `site` with no framework; the canonical base is `https://flashylabs.github.io/agentgraph/` until the property has its own domain.
+"Committed is not served": the authoritative check runs against the live domain after deploy (`npx @flashyos/conformance <domain> --level 2`). `vercel.json` sets the output directory to `site` with no framework; the canonical base is `https://agentelabs.github.io/agentgraph/` until the property has its own domain.
 
 Status: draft; the institutional front door was generated 2026-09-29. Nothing is published to a registry, nothing is adopted, and no live property serves `/.well-known/graph.json` yet — the format is proposed here so that when one does, the checker already exists.
 

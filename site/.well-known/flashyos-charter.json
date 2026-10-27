@@ -9,7 +9,7 @@
   "repositories": [
     {
       "name": "agentgraph",
-      "url": "github.com/FlashyLabs/agentgraph",
+      "url": "github.com/AgenteLabs/agentgraph",
       "default": true,
       "holds": [
         "spec",
