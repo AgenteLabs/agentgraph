@@ -39,7 +39,7 @@ check can run anywhere Node runs.
 - A `license` field in `package.json`, or a licence chosen inside this
   repository. The estate declares licences once, in the register in flashyos
   (`tools/estate-licences.mjs`); it names this repository Apache-2.0 (holder
-  Flashy Labs), and the `LICENSE` file carries that text verbatim.
+  Agente Labs), and the `LICENSE` file carries that text verbatim.
 
 ## Reporting
 
