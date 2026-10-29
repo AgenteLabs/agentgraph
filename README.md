@@ -57,4 +57,4 @@ node scripts/build-site.mjs   # regenerate site/ from site.config.json + the ven
 
 Status: draft; the institutional front door was generated 2026-09-29. Nothing is published to a registry, nothing is adopted, and no live property serves `/.well-known/graph.json` yet — the format is proposed here so that when one does, the checker already exists.
 
-Licensed under Apache-2.0 (holder Flashy Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority.
+Licensed under Apache-2.0 (holder Agente Labs); the estate register in flashyos `tools/estate-licences.mjs` is the authority.
